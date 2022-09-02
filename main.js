@@ -28,6 +28,7 @@ app.use('/user',userRoute)
 app.use('/movie',movieRoute)
 
 
+
 app.listen(3000,'',()=>{
     console.log("started");
 })
